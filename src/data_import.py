@@ -15,6 +15,6 @@ def data_import():
         "F8", "AF4"
     ]
     df.columns = attributes + ["label"]
-    df.to_csv("data/data.csv", index=False)
+    df.to_csv("./data/data.csv", index=False)
 
 
